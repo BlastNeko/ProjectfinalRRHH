@@ -64,7 +64,7 @@ using ProjectfinalRRHH;
             WriteLiteral("\n\n<h2 class=\"d-flex justify-content-center\">Empleados</h2>\n\n");
             EndContext();
             BeginContext(169, 524, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1b489c18f13241049358296823e508fd", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "884c108957134bedb90d4d420dc00a34", async() => {
                 BeginContext(208, 396, true);
                 WriteLiteral(@"
     <div class=""form-actions no-color d-flex justify-content-between"">
@@ -74,7 +74,7 @@ using ProjectfinalRRHH;
         ");
                 EndContext();
                 BeginContext(604, 70, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e91635041ca14274920f5954a5577c55", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8dc670bbe64e44a18708f9844a156145", async() => {
                     BeginContext(647, 23, true);
                     WriteLiteral("Volver a Lista Completa");
                     EndContext();
@@ -334,7 +334,7 @@ using ProjectfinalRRHH;
             WriteLiteral("\n                </td>\n                <td>\n                    ");
             EndContext();
             BeginContext(3070, 55, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "39e781804a2b4bdd94b77e4704a659bc", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "227b76c62fa84703abea37d951f4f325", async() => {
                 BeginContext(3115, 6, true);
                 WriteLiteral("Editar");
                 EndContext();
@@ -369,7 +369,7 @@ using ProjectfinalRRHH;
             WriteLiteral(" |\n                    ");
             EndContext();
             BeginContext(3148, 60, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "77785f768bfc4d3eb6a0101fe2d209b4", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ab40208ac9dd4599b73de6a94168ffda", async() => {
                 BeginContext(3196, 8, true);
                 WriteLiteral("Detalles");
                 EndContext();

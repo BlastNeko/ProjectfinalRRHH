@@ -59,7 +59,7 @@ using ProjectfinalRRHH;
             WriteLiteral("\n<h1>Empleados Inactivos</h1>\n\n");
             EndContext();
             BeginContext(138, 516, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "264f56526d214230989b7822e41102a7", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5836f0afbd9145babe907c2563c69f24", async() => {
                 BeginContext(181, 466, true);
                 WriteLiteral(@"
     <div class=""form-actions no-color d-flex justify-content-between"" style="" border:solid; border-radius:5px; border-width:2px; padding:0.6px"">
@@ -318,7 +318,7 @@ using ProjectfinalRRHH;
             WriteLiteral("    </tbody>\n</table>\n<div>\n    ");
             EndContext();
             BeginContext(3205, 40, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "46651047a86d47cdab240c4704a38782", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a5b1acda466d4a9ca43fb0a751e6c7ee", async() => {
                 BeginContext(3227, 14, true);
                 WriteLiteral("Volver a Lista");
                 EndContext();
