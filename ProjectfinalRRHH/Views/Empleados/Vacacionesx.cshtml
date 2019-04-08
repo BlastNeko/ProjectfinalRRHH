@@ -1,0 +1,62 @@
+﻿@model IEnumerable<ProjectfinalRRHH.Models.ProcessVacaciones>
+
+@{
+    ViewData["Title"] = "Vacaciones";
+}
+
+<h1>Vacaciones</h1>
+
+<form asp-action="Vacacionesx" method="post">
+    <div class="form-actions no-color d-flex justify-content-between" style=" border:solid; border-radius:5px; border-width:2px; padding:0.6px">
+        <input type="date" name="fecha2" value="" class="form-control" placeholder="Buscar por fecha...">
+        <input type="submit" value="Buscar" class="btn btn-outline-success form-control" />
+    </div>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th class="table-dark">
+                @Html.DisplayName("Empleado")
+            </th>
+            <th class="table-dark">
+                @Html.DisplayNameFor(model => model.Desde)
+            </th>
+            <th class="table-dark">
+                @Html.DisplayNameFor(model => model.Hasta)
+            </th>
+            <th class="table-dark">
+                @Html.DisplayNameFor(model => model.Correspondiente)
+            </th>
+            <th class="table-dark">
+                @Html.DisplayNameFor(model => model.Comentario)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td >
+                @Html.DisplayFor(modelItem => item.Empleado)
+            </td>
+            <td >
+                @Html.DisplayFor(modelItem => item.Desde)
+            </td>
+            <td >
+                @Html.DisplayFor(modelItem => item.Hasta)
+            </td>
+            <td >
+                @Html.DisplayFor(modelItem => item.Correspondiente)
+            </td>
+            <td >
+                @Html.DisplayFor(modelItem => item.Comentario)
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+<div>
+    <a asp-action="Vacaciones">Agregar Registro</a> |
+    <a asp-action="Index">Volver a Lista</a>
+</div>

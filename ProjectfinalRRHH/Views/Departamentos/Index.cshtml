@@ -1,0 +1,40 @@
+﻿@model IEnumerable<ProjectfinalRRHH.Models.MantenimientoDepartamento>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Departamentos</h1>
+
+<p>
+    <a asp-action="Create">Agregar Departamento</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th class="table-dark">
+                @Html.DisplayName("Codigo")
+            </th>
+            <th class="table-dark">
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th class="table-dark"></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CodigoDepartamento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Detalles</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

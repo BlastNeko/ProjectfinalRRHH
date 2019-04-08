@@ -1,0 +1,96 @@
+﻿@model IEnumerable<ProjectfinalRRHH.Models.MantenimientoEmpleado>
+
+@{
+    ViewData["Title"] = "Empleados";
+}
+
+
+<h2 class="d-flex justify-content-center">Empleados</h2>
+
+<form asp-action="Index" method="post">
+    <div class="form-actions no-color d-flex justify-content-between">
+        <input type="search" name="busqueda" value=""class="form-control" placeholder="Buscar por nombre...">
+        <input type="search" name="fecha" value="" class="form-control" placeholder="Buscar por Departamento...">
+        <input type="submit" value="Buscar" class="btn btn-outline-success form-control" />
+        <a asp-action="Index" class="form-control">Volver a Lista Completa</a>
+    </div>
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th class="table-dark">
+                @Html.DisplayName("Codigo")
+            </th>
+            <th class="table-dark">
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th class="table-dark">
+                @Html.DisplayNameFor(model => model.Apellido)
+            </th>
+            <th class="table-dark">
+                @Html.DisplayNameFor(model => model.Telefono)
+            </th>
+            <th class="table-dark">
+                @Html.DisplayNameFor(model => model.Departamento)
+            </th>
+            <th class="table-dark">
+                @Html.DisplayName("Ingreso")
+            </th>
+            <th class="table-dark">
+                @Html.DisplayNameFor(model => model.Salario)
+            </th>
+            <th class="table-dark">
+                @Html.DisplayName("Estado")
+            </th>
+            <th class="table-dark">
+                @Html.DisplayNameFor(model => model.Cargo)
+            </th>
+            <th class="table-dark"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+
+            if(item.Estatus == true){
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CodigoEmpleado)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Apellido)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Telefono)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Departamento)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FechaIngreso)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Salario)
+                </td>
+                <td>
+                    @if (item.Estatus == true)
+                    {@Html.DisplayName("Activo")}
+                    else if (item.Estatus == false)
+                    {@Html.DisplayName("Inactivo")}
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cargo)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Detalles</a>
+                </td>
+            </tr>
+            }
+            else { }
+        }
+    </tbody>
+</table>
