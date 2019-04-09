@@ -59,7 +59,7 @@ using ProjectfinalRRHH;
             WriteLiteral("\n\n<h1>GestionRH</h1>\n\n<p>No se LLeno el Formulario Correctamente!</p>\n\n<p>Intentelo otra vez!</p>\n\n");
             EndContext();
             BeginContext(148, 77, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a556330b20714e98a8cc8afb19e4c2f9", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3060276033994234815c9259f6d14fc6", async() => {
                 BeginContext(201, 20, true);
                 WriteLiteral("Volver al Formulario");
                 EndContext();
