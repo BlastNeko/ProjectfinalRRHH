@@ -2,17 +2,14 @@
 @{
     ViewData["Title"] = "Inactivo";
 }
-
 <h1>Empleados Inactivos</h1>
-
-<form asp-action="Inactivos" method="post">
+<form asp-action="Inactivo" method="post">
     <div class="form-actions no-color d-flex justify-content-between" style=" border:solid; border-radius:5px; border-width:2px; padding:0.6px">
         <input type="search" name="busqueda" value="" class="form-control" placeholder="Buscar por nombre...">
         <input type="date" name="fecha0" value="" class="form-control" placeholder="Buscar por fecha...">
         <input type="submit" value="Buscar" class="btn btn-outline-success form-control" />
     </div>
 </form>
-
 <table class="table table-responsive">
     <thead>
         <tr>
@@ -76,8 +73,8 @@
                     <td>
                         @if (item.Estatus == true)
                         {@Html.DisplayName("Activo")}
-                        else if (item.Estatus == false)
-                        {@Html.DisplayName("Inactivo")}
+                    else if (item.Estatus == false)
+                    {@Html.DisplayName("Inactivo")}
                     </td>
                     <td>
                         @Html.DisplayFor(modelItem => item.Cargo)
@@ -91,4 +88,3 @@
 <div>
     <a asp-action="Index">Volver a Lista</a>
 </div>
-

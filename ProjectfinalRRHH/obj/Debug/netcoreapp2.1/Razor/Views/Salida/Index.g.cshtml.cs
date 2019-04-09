@@ -61,7 +61,7 @@ using ProjectfinalRRHH;
             WriteLiteral("\n<h1>Salida de Empleado</h1>\n\n<p>\n    ");
             EndContext();
             BeginContext(156, 66, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a2ef50b472a740caadd4d6765bdc9202", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "dfce5a807d4b4d7aaa78bbb7c55e3b11", async() => {
                 BeginContext(179, 39, true);
                 WriteLiteral("Guardar Registro de Salida del Empleado");
                 EndContext();
@@ -171,7 +171,7 @@ using ProjectfinalRRHH;
             WriteLiteral("\n            </td>\n            <td>\n                ");
             EndContext();
             BeginContext(1264, 55, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "541cdf3b7b5549be9efda79f535d7b0e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "677b953224d64ddda9bbed8c18cb7e05", async() => {
                 BeginContext(1309, 6, true);
                 WriteLiteral("Editar");
                 EndContext();
@@ -206,7 +206,7 @@ using ProjectfinalRRHH;
             WriteLiteral(" |\n                ");
             EndContext();
             BeginContext(1338, 60, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "35f925a1173743c384203f67ca74428d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c55ad081b4f441caad018c33dda36de5", async() => {
                 BeginContext(1386, 8, true);
                 WriteLiteral("Detalles");
                 EndContext();
@@ -241,7 +241,7 @@ using ProjectfinalRRHH;
             WriteLiteral(" |\n                ");
             EndContext();
             BeginContext(1417, 66, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8ee3602e0e6948a79ba0ff65915136f4", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4458edc289924861b0f5e0f3aa8a6894", async() => {
                 BeginContext(1464, 15, true);
                 WriteLiteral("Borrar Registro");
                 EndContext();

@@ -58,7 +58,7 @@ using ProjectfinalRRHH;
             WriteLiteral("\n<h1>Registro Guardado</h1>\n\n<p class=\"p-2\">Registro Guardado con Exito!</p>\n\n");
             EndContext();
             BeginContext(127, 53, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "541e81796c024f62af2e23f39911de56", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "74fd6ec64b054e4a8989bb4968a798d5", async() => {
                 BeginContext(149, 27, true);
                 WriteLiteral("Volver a Lista de Empleados");
                 EndContext();

@@ -73,7 +73,7 @@ using ProjectfinalRRHH;
             WriteLiteral("\n<h1 class=\"d-flex justify-content-center\">Gestor de Recursos Humanos</h1>\n\n\n<div id=\"carouselExampleControls\" class=\"carousel slide\" data-ride=\"carousel\" name=\"klk\">\n  <div class=\"carousel-inner\">\n    <div class=\"carousel-item active\">\n      ");
             EndContext();
             BeginContext(283, 78, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "49bf1e73b50241f68c43824e38dc1f25", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4cd1682bc564d2db6518cc045d79e31", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -94,7 +94,7 @@ using ProjectfinalRRHH;
             WriteLiteral("\n    </div>\n    <div class=\"carousel-item\">\n      ");
             EndContext();
             BeginContext(411, 80, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "2eda57b8e2cf4e09a2d3908e1526a211", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "9462753f6caa45358aaaad7c1bf51031", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -115,7 +115,7 @@ using ProjectfinalRRHH;
             WriteLiteral("\n    </div>\n    <div class=\"carousel-item\">\n      ");
             EndContext();
             BeginContext(541, 78, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "fcbe2e64a5664282998fd4f4cadf363c", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "3a27565a79ca41acba96fe26970be802", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -151,12 +151,12 @@ using ProjectfinalRRHH;
 ");
             EndContext();
             BeginContext(1094, 496, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fa6d0064440547c8bc7d3732bd81e0b4", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "099637ffafbe4e4490519dc67b6191e1", async() => {
                 BeginContext(1100, 79, true);
                 WriteLiteral("\n    <div class=\"form-actions no-color d-flex justify-content-center\">\n        ");
                 EndContext();
                 BeginContext(1179, 124, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fe886e2f31c342918f5dfde681c1dc47", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1859ebf1a0564b73b8489eb551bb1be4", async() => {
                     BeginContext(1290, 9, true);
                     WriteLiteral("Empleados");
                     EndContext();
@@ -181,7 +181,7 @@ using ProjectfinalRRHH;
                 WriteLiteral("\n        ");
                 EndContext();
                 BeginContext(1312, 132, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aaae37742d164ba19e069d373ebed6b9", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fb5586dc80d647bc9389f4e6a5ee3f0f", async() => {
                     BeginContext(1427, 13, true);
                     WriteLiteral("Departamentos");
                     EndContext();
@@ -206,7 +206,7 @@ using ProjectfinalRRHH;
                 WriteLiteral("\n        ");
                 EndContext();
                 BeginContext(1453, 118, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6847b63623704c90902f2dcc86d46562", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b96e74d9acc74788966e9fd6a16c730e", async() => {
                     BeginContext(1561, 6, true);
                     WriteLiteral("Cargos");
                     EndContext();
