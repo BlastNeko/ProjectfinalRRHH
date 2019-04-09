@@ -60,7 +60,7 @@ using ProjectfinalRRHH;
             WriteLiteral("\n<h1>Permisos</h1>\n\n");
             EndContext();
             BeginContext(121, 405, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d37ab937f4c641c596029e156179959e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cc7b6c46aa8d4120ab3915221a074141", async() => {
                 BeginContext(164, 355, true);
                 WriteLiteral(@"
     <div class=""form-actions no-color d-flex justify-content-between"" style="" border:solid; border-radius:5px; border-width:2px; padding:0.6px"">
@@ -188,7 +188,7 @@ using ProjectfinalRRHH;
             WriteLiteral("    </tbody>\n</table>\n<div>\n    ");
             EndContext();
             BeginContext(1625, 44, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fd437ce79e994060abe2f657e14f21cd", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0b1593a35e2341669e97baad9c15618d", async() => {
                 BeginContext(1650, 15, true);
                 WriteLiteral("Agregar Permiso");
                 EndContext();
@@ -210,7 +210,7 @@ using ProjectfinalRRHH;
             WriteLiteral(" |\n    ");
             EndContext();
             BeginContext(1676, 40, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7b2bb2b8150c40859d67a4f8c8d52ed2", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ae9ed5e03cbc47e0b0836fe2dd0a3afc", async() => {
                 BeginContext(1698, 14, true);
                 WriteLiteral("Volver a Lista");
                 EndContext();
