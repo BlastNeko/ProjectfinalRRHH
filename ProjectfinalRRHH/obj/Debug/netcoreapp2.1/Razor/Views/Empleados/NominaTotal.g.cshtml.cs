@@ -119,7 +119,7 @@ using ProjectfinalRRHH;
             WriteLiteral("\n        </dd>\n    </dl>\n</div>\n<div>\n    ");
             EndContext();
             BeginContext(771, 67, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1048003853964308aea9b06d725a865c", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "390ac9aac2584ca998157e9cf6298980", async() => {
                 BeginContext(803, 31, true);
                 WriteLiteral("Guardar Registro de Monto Total");
                 EndContext();
@@ -141,7 +141,7 @@ using ProjectfinalRRHH;
             WriteLiteral("<br />\n    ");
             EndContext();
             BeginContext(849, 53, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "dcfd1ffd645246b3af54498ff4257d7c", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "43aef15f95e94dba8c67d7cf2becb7f2", async() => {
                 BeginContext(871, 27, true);
                 WriteLiteral("Volver a Lista de Empleados");
                 EndContext();
